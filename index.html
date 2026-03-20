@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio | AI活用型Webエンジニア</title>
+    <style>
+        /* シンプルで信頼感のあるネイビーとグレーの配色 */
+        :root {
+            --primary: #2c3e50;
+            --accent: #3498db;
+            --bg: #f8f9fa;
+            --text: #333;
+        }
+        body {
+            font-family: "Helvetica Neue", Arial, "Hiragino Kaku Gothic ProN", "Hiragino Sans", Meiryo, sans-serif;
+            line-height: 1.6;
+            color: var(--text);
+            background-color: var(--bg);
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background: var(--primary);
+            color: white;
+            padding: 4rem 1rem;
+            text-align: center;
+        }
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 2rem;
+        }
+        .section {
+            margin-bottom: 4rem;
+        }
+        h2 {
+            border-bottom: 2px solid var(--primary);
+            padding-bottom: 0.5rem;
+            color: var(--primary);
+        }
+        .card {
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            padding: 2rem;
+            margin-bottom: 2rem;
+        }
+        .version-badge {
+            background: var(--accent);
+            color: white;
+            padding: 0.2rem 0.6rem;
+            border-radius: 4px;
+            font-size: 0.9rem;
+            font-weight: bold;
+        }
+        .skill-list {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            list-style: none;
+            padding: 0;
+        }
+        .skill-item {
+            background: #eee;
+            padding: 5px 15px;
+            border-radius: 20px;
+            font-size: 0.9rem;
+        }
+        footer {
+            text-align: center;
+            padding: 2rem;
+            font-size: 0.8rem;
+            color: #777;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Web Engineer Portfolio</h1>
+    <p>AI共創による高速開発 × 実務特化型システム構築</p>
+</header>
+
+<div class="container">
+    
+    <section class="section">
+        <h2>About Me</h2>
+        <p>
+            最新の生成AIを開発パートナーとして駆使し、設計から実装まで一人で完結させる「AI活用型エンジニア」です。
+            単なるコード作成にとどまらず、<b>「現場の不便をシステムでどう解決するか」</b>を重視し、実務に即したアップデートを継続する実行力を持っています。
+        </p>
+    </section>
+
+    <section class="section">
+        <h2>Developments</h2>
+        
+        <div class="card">
+            <h3>業務管理システム <span class="version-badge">v12.30</span></h3>
+            <p>売上集計、ステータス管理、データ抽出機能を備えたバックエンド・Webアプリ。</p>
+            <ul>
+                <li><b>こだわり:</b> 10回以上のメジャーアップデートを重ね、実務での使い勝手を徹底追求。</li>
+                <li><b>技術:</b> HTML, CSS, JavaScript(ES6+), localStorageによるセキュアなデータ管理。</li>
+                <li><b>成果:</b> 外部サーバーに依存しない「サーバーレス設計」により、データ漏洩リスクを排除。</li>
+            </ul>
+        </div>
+
+        <div class="card">
+            <h3>軽量POSレジアプリ <span class="version-badge">v1.7.0</span></h3>
+            <p>ブラウザで動作する、店舗・個人向けの高速レジ打ちシステム。</p>
+            <ul>
+                <li><b>こだわり:</b> 直感的なUIにより、打ち込みミスを最小限に抑える設計。</li>
+                <li><b>技術:</b> HTML, CSS, JavaScript。オフラインでも動作可能なPWA対応（検討済）。</li>
+            </ul>
+        </div>
+    </section>
+
+    <section class="section">
+        <h2>Skills</h2>
+        <ul class="skill-list">
+            <li class="skill-item">AI活用開発 (Prompt Engineering)</li>
+            <li class="skill-item">HTML5 / CSS3</li>
+            <li class="skill-item">JavaScript (Vanilla JS)</li>
+            <li class="skill-item">localStorage (Web Storage)</li>
+            <li class="skill-item">業務効率化ツール設計</li>
+        </ul>
+    </section>
+
+    <section class="section">
+        <h2>Contact</h2>
+        <p>クラウドソーシングを通じたご依頼や、業務システムの構築相談を承っております。</p>
+        <p>お気軽にご相談ください。</p>
+    </section>
+
+</div>
+
+<footer>
+    &copy; 2026 AI-Driven Web Engineer. All rights reserved.
+</footer>
+
+</body>
+</html>
